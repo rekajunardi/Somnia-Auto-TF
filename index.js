@@ -56,7 +56,7 @@ const network = {
 const provider = new ethers.JsonRpcProvider(RPC_URL, network);
 const activeWallets = require('./activeWallets'); 
 
-class ETHSepoliaBot {
+class SomniaSTTBot {
   constructor() {
     this.privateKeys = [];
     this.wallets = [];
@@ -317,4 +317,5 @@ const bot = new ETHSepoliaBot();
 bot.run().catch(error => {
   logger.error(`Bot failed to start: ${error.message}`);
   process.exit(1);
+
 });
