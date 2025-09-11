@@ -2,7 +2,7 @@
 
 - Node.js (v14 or higher)
 - npm or yarn
-- Ethereum Sepolia testnet ETH for gas fees
+- Somnia Test ( STT ) for gas fees
 - Private keys for your wallets
 
 ## Installation
@@ -71,4 +71,5 @@ npm start
 3. **"Transaction failed"**
    - Insufficient balance for gas fees
    - Network congestion
+
    - Invalid transaction parameters
